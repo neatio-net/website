@@ -1,14 +1,16 @@
 :root {
   --color-white: #ffff;
   --color-blue: #0ff;
-  --color-black: #141414;
+  --color-black: #1b202d;
   --color-grey: #8d8d8d;
-  --color-green: #0ff;
+  --color-blue-light: #00ffff;
+  --color-blue-dark: #0d256b;
+  --color-green: #5983FC;
   --color-yellow: #ffc226;
   --color-orange: #ff6826;
-  --font-sans: 'Montserrat', sans-serif;
-  --font-serif: 'Sora', sans-serif;
-  --dark-theme-bg: #333;
+  --font-sans: 'Play', sans-serif;
+  --font-serif: 'Play', sans-serif;
+  --dark-theme-bg: #0d256b;
 }
 
 /* Custom Scrollbar for all elements */
@@ -32,19 +34,15 @@
   outline: none;
 }
 *::-webkit-scrollbar-thumb:hover {
-  background: #0ff;
+  background: #46bbf4;
 }
 *::-webkit-scrollbar-thumb:active {
-  background: #404040;
+  background: #2E4583;
 }
 
 body {
   background: var(--dark-theme-bg)
-    radial-gradient(
-      967.28% 288.75% at -2.92% 117.8%,
-      #060606 0%,
-      rgba(18, 18, 18, 0.7) 100%
-    );
+    linear-gradient(to right,#212226, #243B55);
   overflow-x: hidden;
   min-height: 100vh;
 }
