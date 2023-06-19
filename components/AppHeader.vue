@@ -1,7 +1,7 @@
 <template>
   <header class="app-header">
     <v-header
-      logo="images/nio3-logo.png"
+      logo="images/nio3-header-logo.png"
    
       :menu-items="menuItems"
     />
@@ -43,6 +43,6 @@ export default {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #0f0f0f;
+  background-color: #00000096;
 }
 </style>
