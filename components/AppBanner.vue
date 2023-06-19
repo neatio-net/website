@@ -1,8 +1,8 @@
 <template>
   <div class="banner">
-    <!-- <v-text line-height="1.5" :weight="500" size="1rem">
+    <v-text line-height="1.5" :weight="500" size="1rem">
       <a href="https://buy.neatio.net" target="_blank">Presale</a> is now live!
-    </v-text> -->
+    </v-text>
   </div>
 </template>
 
@@ -10,12 +10,13 @@
 @import url('./lib/media-query-helper.css');
 
 .banner {
+  display: none;
   background: linear-gradient(180deg, #31C1BF -4.5%, #000 100.1%); 
-  padding: 0.5em 1.5em;
+  padding: 0.25em 1.5em;
   color: #31C1BF;
   text-align: center;
   @media (--viewport-small) {
-    padding: 0.5rem 2rem;
+    padding: 0.25rem 2rem;
   }
 }
 
