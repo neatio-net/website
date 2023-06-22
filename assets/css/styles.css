@@ -41,8 +41,7 @@
 }
 
 body {
-  background: var(--dark-theme-bg)
-    linear-gradient(to right,#212226, #243B55);
+  background: linear-gradient(to right, #141E30, #243B55);
   overflow-x: hidden;
   min-height: 100vh;
 }
@@ -54,7 +53,7 @@ body {
   color: var(--color-white);
 }
 .color-link {
-  color: var(--color-blue);
+  color: #46bbf4;
 }
 .font-sans {
   font-family: var(--font-sans);
@@ -65,7 +64,9 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
-
+.header-menu-item{
+  color: #fff;
+}
 .absolute-center {
   position: absolute;
   top: 50%;
