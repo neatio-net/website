@@ -1,9 +1,9 @@
 <template>
   <div>
-    <v-text font="sans" size="1rem">
+    <v-text font="sans" size="1rem" >
       <a href="/terms/"
               >
-    <v-text size="1rem">Terms</v-text></a
+    <v-text size="1rem" >Terms</v-text></a
             >
       © {{ currentYear }} Neatio.
     </v-text>
@@ -23,7 +23,8 @@ export default {
 
 <style lang="css" scoped>
 div {
-  padding-bottom: 2.5rem;
+  padding: 1.5rem;
   text-align: center;
+  background-color: #00000085;
 }
 </style>
