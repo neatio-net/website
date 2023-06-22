@@ -13,7 +13,8 @@
             <app-section-descriptor
         title="Contact"
         heading="GET IN TOUCH"
-        description="Neatio team can be contacted either directly by email or alternatively through our social media channels. To get the fastest response we recommend to reach us on our Discord server where the team members are always online."
+        description="Neatio team can be contacted either directly by email or alternatively through our social media channels. 
+        To get the fastest response we recommend to reach us on our Discord server where the developers, validators or our dedicated community members are always online."
         style="max-width: 64rem"
       />
       <v-stack
@@ -134,7 +135,7 @@ export default {
 @import url('./lib/media-query-helper.css');
 
 footer {
-  background-color: #000;
+  background-color: linear-gradient(to right,#212226, #243B55);
   background-size: cover;
   overflow-x: hidden;
 
