@@ -9,11 +9,11 @@
       >
         <v-stack direction="column" class="hero-content-container">
           <v-heading :level="1" class="hero-title">
-            <div>Beyond Payments.</div>            
+            <div>Beyond Payments</div>            
           </v-heading>
           <v-stack direction="column">
             <app-section-descriptor
-              description="Unveiling the future of seemless payments. Neatio will lead you into the new digital era. 
+              description="Neatio will lead you into the new digital era. 
               Step forward with confidence as we revolutionize the way we transact, empowering individuals and businesses alike with the security and trust of the blockchain tech."
               class="hero-description"
             />
@@ -36,7 +36,10 @@
           </v-stack>
 
         </v-stack>
-        
+        <v-image
+              class="hero-image"
+              path="images/blockchain2.png"
+            />
 
      
       </v-stack>
@@ -88,6 +91,21 @@ export default {
   }
 }
 
+.hero-image {
+  max-width: 36rem;
+  width: 100%;
+
+
+
+  @media (--viewport-medium) {
+    margin-right: 0;
+  }
+
+  @media (--viewport-small) {
+    margin-top: 2rem;
+  }
+}
+
 .hero-description {
   margin-block: 2rem;
 }
@@ -98,6 +116,6 @@ export default {
 
 .hero-title {
   margin-block: 0;
-  max-width: 12ch;
+  max-width: 20ch;
 }
 </style>
