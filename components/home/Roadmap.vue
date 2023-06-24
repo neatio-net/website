@@ -35,12 +35,7 @@ export default {
 section {
   margin-top: 0 !important;
   padding: 6rem 0 0;
-  background: radial-gradient(
-    90.99% 90.99% at 4.06% 0%,
-    rgba(150, 221, 226, 0.2) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-
+  background-color: linear-gradient(to right,#212226, #243B55);
   @media (--viewport-small) {
     padding: 3rem 0 0;
   }
