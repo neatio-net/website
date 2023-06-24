@@ -21,7 +21,7 @@
             alt="Neatio Speed" />
           </div>
           <div class="overview-feature">
-            <v-heading :level="3" class="overview-feature-title">
+            <v-heading :level="2" class="overview-feature-title">
               Balzing Fast
             </v-heading>
             <v-heading :level="2" class="overview-feature-title">
@@ -50,13 +50,10 @@
         >
           <div class="overview-feature">
             <div>
-              <v-heading :level="3" class="overview-feature-title">
+              <v-heading :level="2" class="overview-feature-title">
              Unparallel Security
               </v-heading>
-              Blockchain security safeguards data integrity, confidentiality, and availability. 
-              It utilizes decentralization, cryptography, and transparency to prevent tampering. 
-              By distributing data and employing digital signatures, it ensures authenticity and prevents unauthorized modifications. 
-              Regular audits and monitoring enhance trust in this highly secure technology for transactions and data storage.
+
             </div>
             
             <div class="overview-feature-description">
@@ -65,8 +62,10 @@
                 line-height="1.5"
                 class="feature-description-text"
               >
-              With Neatio, bid farewell to network congestion and lengthy confirmation times. Neatio's advanced system ensures that transactions achieve finality swiftly, often within the same block. By optimizing its blockchain protocol and transaction validation process, Neatio minimizes delays and eliminates the need for extended waiting periods. Say goodbye to frustrating bottlenecks and experience the convenience of near-instantaneous transaction confirmations on the Neatio platform.
-              </v-text>
+              Blockchain security safeguards data integrity, confidentiality, and availability. 
+              It utilizes decentralization, cryptography, and transparency to prevent tampering. 
+              By distributing data and employing digital signatures, it ensures authenticity and prevents unauthorized modifications. 
+              Regular audits and monitoring enhance trust in this highly secure technology for transactions and data storage.              </v-text>
             </div>
           </div>
           <div class="icon-container">
@@ -91,7 +90,7 @@
           </div>
           <div class="overview-feature">
             <div>
-              <v-heading :level="3" class="overview-feature-title">
+              <v-heading :level="2" class="overview-feature-title">
               Highly Scalable
               </v-heading>
             </div>
