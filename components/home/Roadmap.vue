@@ -52,7 +52,7 @@ section {
 
 .roadmap-desktop {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1720px;
 }
 
 .roadmap-mobile {
