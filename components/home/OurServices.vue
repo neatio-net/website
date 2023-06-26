@@ -51,7 +51,8 @@
           <div class="overview-feature">
             <div>
               <v-heading :level="2" class="overview-feature-title">
-             Unparallel Security
+                Highly Scalable
+             
               </v-heading>
 
             </div>
@@ -61,16 +62,18 @@
                 color="secondary"
                 line-height="1.5"
                 class="feature-description-text"
-              >
-              Blockchain security safeguards data integrity, confidentiality, and availability. 
-              It utilizes decentralization, cryptography, and transparency to prevent tampering. 
-              By distributing data and employing digital signatures, it ensures authenticity and prevents unauthorized modifications. 
-              Regular audits and monitoring enhance trust in this highly secure technology for transactions and data storage.              </v-text>
+              >        With Neatio, say "Good-bye!" to network congestion and lengthy confirmation times. 
+              Neatio's custom BFT consensus mechanism achieve transaction finality within the same block. 
+              By optimizing its blockchain protocol and transaction validation process,
+              Neatio minimizes delays and eliminates the need for extended waiting periods.
+              Say goodbye to frustrating bottlenecks and experience the convenience of near-instantaneous transaction confirmations on the Neatio platform.
+
+                    </v-text>
             </div>
           </div>
           <div class="icon-container">
             <v-image class="serv-image"
-              path="images/security.png"
+              path="images/scalability2.png"
               alt="Neatio Security"
             />
           </div>
@@ -83,15 +86,15 @@
           justify="space-evenly"
         >
           <div class="icon-container">
-            <v-image class="serv-image"
-              path="images/scalability.png"
+            <v-image class="serv-image1"
+              path="images/security.png"
               alt="Neatio Scalability"
             />
           </div>
           <div class="overview-feature">
             <div>
               <v-heading :level="2" class="overview-feature-title">
-              Highly Scalable
+                Unparallel Security
               </v-heading>
             </div>
             <div class="overview-feature-description">
@@ -100,8 +103,10 @@
                 line-height="1.5"
                 class="feature-description-text"
               >
-              With Neatio, say "Good-bye!" to network congestion and lengthy confirmation times. 
-              Neatio's custom BFT consensus mechanism achieve transaction finality within the same block. By optimizing its blockchain protocol and transaction validation process, Neatio minimizes delays and eliminates the need for extended waiting periods. Say goodbye to frustrating bottlenecks and experience the convenience of near-instantaneous transaction confirmations on the Neatio platform.
+              Blockchain security safeguards data integrity, confidentiality, and availability. 
+              It utilizes decentralization, cryptography, and transparency to prevent tampering. 
+              By distributing data and employing digital signatures, it ensures authenticity and prevents unauthorized modifications. 
+              Regular audits and monitoring enhance trust in this highly secure technology for transactions and data storage.        
               </v-text>
               
             </div>
@@ -114,7 +119,7 @@
           sm-gap="3rem"
           justify="space-evenly"
         >
-          <div class="overview-feature">
+          <!-- <div class="overview-feature">
             <div>
               <v-heading :level="2" class="overview-feature-title">
               Environmentally Friendly             
@@ -135,10 +140,10 @@
           </div>
           <div class="icon-container">
             <v-image class="serv-image"
-              path="images/eco.png"
+              path="images/eco4.png"
               alt="Neatio Eco"
             />
-          </div>
+          </div> -->
         </v-stack>
         
       </div>
@@ -209,12 +214,15 @@ section {
 .serv-image{
   max-width: 20vw;
 }
+.serv-image1{
+  max-width: 22vw;
+}
 .icon-container {
   position: relative;
   overflow: visible;
 }
 
-.icon-container::before {
+/* .icon-container::before {
   content: '';
   position: absolute;
   top: -40%;
@@ -228,7 +236,7 @@ section {
     rgba(0, 0, 0, 0) 100%
   );
   filter: blur(5px);
-}
+} */
 
 .icon-container:nth-child(2)::before {
   background: radial-gradient(
