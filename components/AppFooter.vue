@@ -43,7 +43,7 @@
             </a>
 
             <a
-              style="margin-left: 3rem"
+              style="margin-left: 2rem"
               href="https://dd.neatio.net"
               target="_blank"
             >
@@ -54,7 +54,7 @@
               />
             </a>
             <a
-              style="margin-left: 3rem"
+              style="margin-left: 2rem"
               href="https://t.me.neat_io"
               target="_blank"
             >
@@ -67,15 +67,27 @@
             </a>
 
             <a
-              style="margin-left: 3rem"
+              style="margin-left: 2rem"
               href="https://github.com/neatio-network"
               target="_blank"
             >
               <v-image
-                style="height: 40px"
+                style="height: 44px; width: auto;"
                 path="images/social/github.png"
                 class="footer-social-link"
                 alt="Neatio Github"
+              />
+            </a>
+            <a
+              style="margin-left: 2rem"
+              href="https://github.com/neatio-network"
+              target="_blank"
+            >
+              <v-image
+                style="height: 48px; width: auto;"
+                path="images/social/reddit.png"
+                class="footer-social-link"
+                alt="Neatio Reddit"
               />
             </a>
           </v-stack>
@@ -214,7 +226,7 @@ a {
 .get-in-touch {
   font-size: 1.5rem;
   line-height: 2.25rem;
-  color: #0ff;
+  color: #5983FC;
 
   @media (--viewport-medium) {
     font-size: 1.125rem;
