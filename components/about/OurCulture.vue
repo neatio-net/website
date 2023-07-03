@@ -2,16 +2,27 @@
   <section>
     <v-container>
       <app-section-descriptor
-        title="Our culture"
-        heading=" Our Mission Is To Bring Ownership, Privacy and Security to User Data"
+        title="Our mission"
+        heading="Neatio Vision"
         style="max-width: 60rem"
       />
+      <app-section-descriptor
+            description="With Neatio, users can expect lightning-fast transaction speeds, eliminating the frustrating delays that have long been associated with traditional payment systems. 
+            Our platform ensures that transactions are processed swiftly, enabling seamless and timely transfers of value."
+style="text-align: left;" />
+<div class="spc"></div>
+      <app-section-descriptor
+            description="       Our mission at Neatio is to revolutionize traditional payments. By leveraging cutting-edge blockchain technology, 
+        we offer lightning-fast transactions, enhanced security, heightened privacy, and significant cost savings. Join us in reshaping the future of payments, making it accessible, secure, and efficient for everyone. 
+        Together, let's unlock the transformative power of decentralization."
+style="text-align: left;" />
       <v-stack justify="space-between" wrap>
         <div
           v-for="culturePoint in culturePoints"
           :key="culturePoint.title"
           class="our-culture-points"
         >
+        
           <v-blurb
             :image="culturePoint.icon"
             :alt="culturePoint.title"
@@ -30,47 +41,14 @@ export default {
   data() {
     return {
       culturePoints: [
-        {
-          icon: 'images/privacy.svg',
-          title: 'Value Privacy',
-          description:
-            'Privacy is not a feature we build, it is a fundamental right.',
-        },
-        {
-          icon: 'images/detail-oriented.svg',
-          title: 'Be Detail-Oriented',
-          description: 'Dot all the I’s and cross all your T’s.',
-        },
-        {
-          icon: 'images/ownership.svg',
-          title: 'Take Ownership',
-          description:
-            'See anything amiss, bring it to everyone’s notice. Or better yet, fix it!',
-        },
-        {
-          icon: 'images/informed-decision.svg',
-          title: 'Make Informed Decisions',
-          description:
-            'Ask questions, many many questions, no matter how silly you think they are.',
-        },
-        {
-          icon: 'images/first-principle.svg',
-          title: 'Learn From First Principles',
-          description: 'Always ask why before what, how...',
-        },
-        {
-          icon: 'images/life-work.svg',
-          title: 'Life > Work',
-          description:
-            '“Me” time, time off for no specific reason... Yes, please.',
-        },
+
       ],
     }
   },
 }
 </script>
 
-<style lang="postcss" scoped>
+<style >
 @import url('../lib/media-query-helper.css');
 
 .our-culture-points {
@@ -83,12 +61,19 @@ export default {
     width: 50%;
   }
 }
-
+.description-text{
+font-family: Play, Arial, Helvetica, sans-serif;
+}
 .our-culture-points > * {
   margin: 0 auto;
   max-width: 12rem;
 }
-
+.spc{
+  padding: 1rem;
+}
+.spcs{
+  padding: 2.4rem;
+}
 .our-culture-points > .blurb-description {
   font-size: 1.125rem !important;
   line-height: 1.375rem;
