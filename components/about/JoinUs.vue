@@ -19,7 +19,7 @@ If you are interested in what we are building, checkout our existing openings, i
         </v-stack>
         <div class="illustration-container">
           <v-image
-            path="images/join-us-illustration.png"
+            path="images/join-us.png"
             class="joinus-illustration"
           />
         </div>
@@ -33,13 +33,13 @@ export default {
   name: 'JoinUs',
   methods: {
     openCareers() {
-      window.open('/careers', '_self')
+      window.open('https://docs.google.com/forms/d/1gUmS0-KTgHLahGpNZnL4pmmTdxcL2VEEoHPQJ1m9gdU', '_self')
     },
   },
 }
 </script>
 
-<style lang="postcss" scoped>
+<style>
 @import url('../lib/media-query-helper.css');
 
 .joinus-description {
@@ -59,7 +59,7 @@ export default {
   }
 }
 
-.illustration-container::before {
+/* .illustration-container::before {
   position: absolute;
   inset: 0%;
   content: '';
@@ -70,11 +70,11 @@ export default {
   );
   filter: blur(40px);
   z-index: -1;
-}
+} */
 
 .joinus-illustration {
   width: 90%;
-  max-width: 60rem;
+  max-width: 30rem;
 
   @media (--viewport-medium) {
     width: 150%;
