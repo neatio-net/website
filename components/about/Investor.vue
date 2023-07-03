@@ -81,7 +81,7 @@ export default {
 }
 </script>
 
-<style lang="postcss" scoped>
+<style>
 @import url('../lib/media-query-helper.css');
 
 .investor-container {
