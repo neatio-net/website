@@ -13,7 +13,7 @@
             <app-section-descriptor
         title="Contact"
         heading="GET IN TOUCH"
-        description="Neatio team can be contacted either directly by email or alternatively through our social media channels. 
+        description="Neatio team can be contacted either directly by email or alternatively through our social media channels.
         To get the fastest response we recommend to reach us on our Discord server where the developers, validators or our dedicated community members are always online."
         style="max-width: 64rem"
       />
@@ -78,51 +78,33 @@
                 alt="Neatio Github"
               />
             </a>
-            <a
-              style="margin-left: 2rem"
-              href="https://github.com/neatio-network"
-              target="_blank"
-            >
-              <v-image
-                style="height: 48px; width: auto;"
-                path="images/social/reddit.png"
-                class="footer-social-link"
-                alt="Neatio Reddit"
-              />
-            </a>
+
           </v-stack>
 
         </v-stack>
-        <!-- <v-stack
+
+        <!-- Footer Links -->
+        <v-stack
           class="footer-links-container"
           justify="space-between"
           :grow="1"
         >
           <v-stack direction="column" class="footer-links">
-            <a href="/tech/"><v-text>Technology</v-text></a>
+            <a href=""><v-text></v-text></a>
             <a href="/about/"><v-text>About</v-text></a>
-            <a
-              href="/tech/"
-              target="_blank"
-            >
-              <v-text>Technical Paper</v-text>
-            </a>
-            <a href="/blog/">
-              <v-text>Blog</v-text>
-            </a>
+            <a href="/blog/"><v-text>Blog</v-text></a>
+            <a href="/careers/"><v-text>Careers</v-text></a>
+
           </v-stack>
           <v-stack direction="column" class="footer-links">
-            <a href="/careers">
-              <v-text>Careers</v-text>
-            </a>
-            <a
-              href="https://github.com/neatio/license/blob/main/PRIVACY.md"
-              target="_blank"
-              ><v-text>Privacy</v-text></a
+            <a href=""><v-text></v-text></a>
+            <a href="https://bitcointalk.org/index.php?topic=5377414"><v-text>Forum</v-text></a>
+            <a href="https://www.reddit.com/r/neatio/"><v-text>Reddit</v-text></a>
+            <a href="/terms/" target="_blank"><v-text>Terms</v-text></a
             >
 
           </v-stack>
-        </v-stack> -->
+        </v-stack>
       </v-stack>
     </v-container>
   </footer>
@@ -177,10 +159,10 @@ footer {
 }
 
 .footer-navigation-container {
-  padding: 6rem 0;
+  padding: 4rem 0;
 
   @media (--viewport-small) {
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
 }
 
@@ -189,7 +171,7 @@ footer {
 
   @media (--viewport-medium) {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     max-width: unset;
   }
 }
@@ -209,12 +191,12 @@ a {
 .footer-links a * {
   font-family: var(--font-sans);
   font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1.875rem;
+  font-size: 1.25rem;
+  line-height: 0.5rem;
 
   @media (--viewport-medium) {
     font-size: 1.125rem;
-    line-height: 1.375rem;
+    line-height: 0.5rem;
   }
 }
 
