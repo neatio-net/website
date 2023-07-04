@@ -8,7 +8,7 @@
       md-gap="4rem"
       sm-gap="2rem"
     >
-      <v-container>
+      <!-- <v-container>
         <app-section-descriptor
           title="Small Team. Big Mission."
           heading="Join us to Catalyse the #PrivacyBigBang"
@@ -18,15 +18,15 @@
           description="We love work but love to chill and party too. While we build privacy-preserving apps, we also do our fair bit of work to preserve our app-yiness and sanity."
           style="max-width: 60rem"
         />
-      </v-container>
+      </v-container> -->
       <div class="team-images">
         <v-stack class="team-image-row">
-          <v-image width="32%" path="images/careers/photo_1.png" />
-          <v-image width="68%" path="images/careers/photo_2.png" />
+          <!-- <v-image width="32%" path="images/careers/photo_1.png" />
+          <v-image width="68%" path="images/careers/photo_2.png" /> -->
         </v-stack>
         <v-stack class="team-image-row">
-          <v-image width="68%" path="images/careers/photo_3.png" />
-          <v-image width="32%" path="images/careers/photo_4.png" />
+          <!-- <v-image width="68%" path="images/careers/photo_3.png" />
+          <v-image width="32%" path="images/careers/photo_4.png" /> -->
         </v-stack>
       </div>
     </v-stack>
