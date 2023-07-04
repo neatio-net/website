@@ -3,8 +3,8 @@
     <v-container>
       <v-stack justify="space-between">
         <app-section-descriptor
-          title="Our team"
-          heading="The Neatio Builders"
+          title="The Developers"
+          heading="Neatio Builders"
         />
       </v-stack>
       <v-stack
@@ -13,15 +13,37 @@
         class="member-container"
         wrap
       >
-        <div
-          v-for="member in executiveMembers"
-          :key="member.name + member.designation"
-        >
-          <about-team-member :member="member" />
-        </div>
+      
+      <app-section-descriptor
+            description="Neatio team consists of a group of software engineers and designers which are passionate about blockchain technology and cryptocurrencies in general, with a strong belief in the freedom and privacy of each individual.
+
+Our team is a perfect blend of core developers and UX/UI designers. To find out more about Neatio Team and our mission please check our Whitepaper."
+style="text-align: left;" />
+        
       </v-stack>
 
+
+      
+      <div class="spcs"></div>
+      <app-section-descriptor
+        title="Our mission"
+        heading="Neatio Vision"
+        style="max-width: 60rem"
+      />
+      <app-section-descriptor
+            description="With Neatio, users can expect lightning-fast transaction speeds, eliminating the frustrating delays that have long been associated with traditional payment systems. 
+            Our platform ensures that transactions are processed swiftly, enabling seamless and timely transfers of value."
+style="text-align: left;" />
+<div class="spc"></div>
+      <app-section-descriptor
+            description="       Our mission at Neatio is to revolutionize traditional payments. By leveraging cutting-edge blockchain technology, 
+        we offer lightning-fast transactions, enhanced security, heightened privacy, and significant cost savings. Join us in reshaping the future of payments, making it accessible, secure, and efficient for everyone. 
+        Together, let's unlock the transformative power of decentralization."
+style="text-align: left;" />
+
     </v-container>
+
+
   </section>
 </template>
 
@@ -30,78 +52,7 @@ export default {
   name: 'OurTeam',
   data() {
     return {
-      executiveMembers: [
-        {
-          name: 'Silviu Georgescu',
-          designation: 'Founder, Lead Developer',
-          image: 'team',
-          links: {
-            linkedin: "https://www.linkedin.com/in/silviu-georgescu-3a679b201",
-            github: "https://github.com/GSilviu",
-            twitter: "https://twitter.com/silviugeo"
-          },
-        },
-        {
-          name: 'Angelo Gorreti',
-          designation: 'Founder, Head Of Marketing',
-          image: 'team',
-          links: {
-            twitter: "https://twitter.com/agoretti_"
-          },
-          },
-        {
-          name: 'Adrian Vasile',
-          designation: 'Lead Frontend Developer',
-          image: 'team',
-          links: {
-            github: "https://github.com/mrtizu",
-            twitter: "https://twitter.com/mrtizu"
-          },
-          },
-        {
-          name: 'Luckas83',
-          designation: 'Web3 Developer',
-          image: 'team',
-          links: {
-            github: "https://github.com/Luckas83",
-          },
-        },
 
-        {
-          name: 'Emmanuel Akinroye',
-          designation: 'Solidity Developer',
-          image: 'team',
-          links: {
-            github: "https://github.com/Emma66886",
-          },
-        },
-
-        {
-          name: 'Gessius',
-          designation: 'Graphic Designer',
-          image: 'team',
-          links: {
-            github: "https://github.com/Gessius",
-          },
-        },
-        {
-          name: 'Adrian Munteanu',
-          designation: 'Assistant Developer',
-          image: 'team',
-          links: {
-            github: "https://github.com/adi-mun",
-          },
-        },
-        {
-          name: 'Daniel Munteanu',
-          designation: 'Advisor',
-          image: 'team',
-          links: {
-           
-          },
-        },
-
-      ],
     }
   },
 }
@@ -116,6 +67,7 @@ export default {
     text-align: start;
   }
 }
+
 .member-container > * {
   margin: 1rem 0;
   flex: 1 0 33%;
@@ -125,6 +77,12 @@ export default {
   opacity: 0;
   overflow: hidden;
   transition: max-height 0.4s, opacity 0.8s;
+}
+.spc{
+  padding: 1rem;
+}
+.spcs{
+  padding: 2.4rem;
 }
 .expanded {
   opacity: 1;
