@@ -17,7 +17,7 @@
               </v-heading>
               <v-stack direction="column" gap="2rem">
                 <app-section-descriptor
-                  description="We are at the brink of a web3 renaissance. This new internet revolution upends almost everything we’ve taken for granted: capital, applications, content, gaming, platforms, music, art, creators, and users. Apart from decentralization and security, privacy plays a pivotal role underpinning the workings of anything web3."
+                  description="We invite you to join us on this pioneering journey as we reshape the future of payments. Together, we can create a world where payment systems are accessible, secure, and efficient for everyone, regardless of their location or financial standing. With Neatio, you can be part of a global community that embraces the potential of blockchain technology and experiences the benefits of decentralized finance. Let us reimagine the way we transact, empowering individuals and businesses worldwide to thrive in a digital era."
                 />
                 <app-section-descriptor
                   description="Here you will be a part of a highly skilled and collaborative team. Be it engineering, community, or marketing, we never run out of exciting challenges. If you’re looking forward to working in an emerging blockchain project, alongside some of the best talent in each field, Neatio is the place for you! For us, every decision is centered around user privacy and security. Do you believe top-tier privacy should be a first-class citizen? Then come join us and help redefine privacy!"
@@ -26,12 +26,17 @@
             </v-stack>
             <v-image
               class="join-us-illustration"
-              path="images/join-us-illustration.png"
+              path="images/join-us.png"
             />
           </v-stack>
         </div>
-
-        <div>
+        <v-button
+            label="Join us"
+            label-transform="uppercase"
+            class="joinus-btn"
+            :action="openCareers"
+          />
+        <!-- <div>
           <v-stack
             class="highlight"
             align="center"
@@ -64,7 +69,7 @@
               </v-text>
             </v-stack>
           </v-stack>
-        </div>
+        </div> -->
       </v-stack>
     </v-container>
   </section>
@@ -76,9 +81,9 @@ export default {
   data() {
     return {
       highlights: [
-        { title: 'Employees Worldwide', value: '20+' },
-        { title: 'Renowned Investors', value: '30+' },
-        { title: 'Funds Raised', value: '$2.7M+' },
+        // { title: 'Employees Worldwide', value: '20+' },
+        // { title: 'Renowned Investors', value: '30+' },
+        // { title: 'Funds Raised', value: '$2.7M+' },
       ],
     }
   },
