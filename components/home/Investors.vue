@@ -4,12 +4,12 @@
       <v-stack justify="space-between" direction="column" align="start">
         <v-stack direction="column">
           <app-section-descriptor
-            title="our investors"
-            heading="They’re Awesome Investors. And They Chose To Back Us!"
+            title=""
+            heading=""
             style="max-width: 40rem; margin-bottom: 1.25rem"
           />
           <app-section-descriptor
-            description="Everyone of these investors are well known and well respected in their own right. Through us, they’re helping shape the world towards a more privacy preserving future"
+            description=""
             style="max-width: 60rem"
           />
         </v-stack>
