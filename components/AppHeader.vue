@@ -1,7 +1,7 @@
 <template>
   <header class="app-header">
     <v-header
-      logo="images/nio3-header-logo.png"
+      logo="images/nio3-logo.png"
    
       :menu-items="menuItems"
     />
@@ -13,24 +13,31 @@ export default {
   name: 'AppHeader',
   data() {
     return {
-      // headerCta: {
-      //   label: 'Start Building',
-      //   link: process.env.NEATIO_DASHBOARD_URL,
-      // },
+      headerCta: {
+        label: 'Start Building',
+        link: process.env.NEATIO_DASHBOARD_URL,
+      },
       menuItems: [
+        
       {
-          name: 'Team',
+          name: 'About',
           link: '/about/',
         },
+      {
+          name: 'Blog',
+          link: 'https://blog.neatio.net',
+          external: true,
+        },
+
         {
           name: 'Whitepaper',
           link: '/whitepaper/',
           // external: true,
         },
-        {
-          name: 'Roadmap',
-          link: '/tech/',
-        },
+        // {
+        //   name: 'Roadmap',
+        //   link: '/tech/',
+        // },
 
       ],
     }
