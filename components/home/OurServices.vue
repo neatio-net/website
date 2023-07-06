@@ -73,7 +73,7 @@
           </div>
           <div class="icon-container">
             <v-image class="serv-image"
-              path="images/scalability2.png"
+              path="images/scalability.png"
               alt="Neatio Security"
             />
           </div>
