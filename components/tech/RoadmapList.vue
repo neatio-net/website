@@ -2,13 +2,13 @@
   <section>
     <!-- <div class="illustration-container">
       <v-image
-        path="images/roadmap-illustration.png"
+        path="images/publications-illustration.svg"
         class="roadmap-illustration"
       />
     </div> -->
     <v-container>
       <v-stack direction="column">
-        <app-section-descriptor title="Roadmap" heading="Detailed 2023 Roadmap" />
+        <app-section-descriptor title="Roadmap" heading="Detailed 2023 - 2024 Roadmap" />
         <v-stack gap="1rem" class="laptop-remove">
           <v-dropdown
             v-model="selectedYear"
@@ -74,7 +74,75 @@ export default {
     return {
       selectedYear,
       roadmap: {
+        2022: [
+        {
+            quarter: 'Quarter 1',
+            milestones: [
+              'Neatio Milestone 1',
+              'Neatio Milestone 2',
+              'Neatio Milestone 3',
+              ],
+          },
+          {
+            quarter: 'Quarter 2',
+            milestones: [
+              'Neatio Milestone 1',
+              'Neatio Milestone 2',
+              'Neatio Milestone 3',
+              ],
+          },
+          {
+            quarter: 'Quarter 3',
+            milestones: [
+              'Neatio Milestone 1',
+              'Neatio Milestone 2',
+              'Neatio Milestone 3',
+              ],
+          },
+          {
+            quarter: 'Quarter 4',
+            milestones: [
+              'Neatio Milestone 1',
+              'Neatio Milestone 2',
+              'Neatio Milestone 3',
+              ],
+          },
+        ],
         2023: [
+        {
+            quarter: 'Quarter 1',
+            milestones: [
+              'Neatio Milestone 1',
+              'Neatio Milestone 2',
+              'Neatio Milestone 3',
+              ],
+          },
+          {
+            quarter: 'Quarter 2',
+            milestones: [
+              'Neatio Milestone 1',
+              'Neatio Milestone 2',
+              'Neatio Milestone 3',
+              ],
+          },
+          {
+            quarter: 'Quarter 3',
+            milestones: [
+              'Neatio Milestone 1',
+              'Neatio Milestone 2',
+              'Neatio Milestone 3',
+              ],
+          },
+          {
+            quarter: 'Quarter 4',
+            milestones: [
+              'Neatio Milestone 1',
+              'Neatio Milestone 2',
+              'Neatio Milestone 3',
+              ],
+          },
+        ],
+        2024: [
         {
             quarter: 'Quarter 1',
             milestones: [
@@ -193,12 +261,12 @@ ul li {
 }
 
 .selected-year {
-  border: 1px solid #0ff;
+  border: 1px solid #5983fc;
   border-radius: 10px;
 }
 
 .selected-year > * {
-  color: #0ff;
+  color:#5983fc;
   font-weight: 600;
 }
 
