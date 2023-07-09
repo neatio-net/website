@@ -2,7 +2,7 @@ const site = {
   url: 'https://neatio.net',
   title: 'Beyond Payments',
   description:
-    'Connecting businesses with the power of AI, on top of cutting-edge blockchain technologies.',
+    'dESCRIPTION',
   image: 'https://neatio.net/',
   keywords: ['payments', 'blockchain'].join(', '),
 }
