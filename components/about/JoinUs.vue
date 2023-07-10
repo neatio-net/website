@@ -14,7 +14,7 @@ If you are interested in what we are building, checkout our existing openings, i
             label="Join us"
             label-transform="uppercase"
             class="joinus-btn"
-            :action="openCareers"
+            :action="openJoinUs"
           />
         </v-stack>
         <div class="illustration-container">
@@ -32,7 +32,7 @@ If you are interested in what we are building, checkout our existing openings, i
 export default {
   name: 'JoinUs',
   methods: {
-    openCareers() {
+    openJoinUs() {
       window.open('https://docs.google.com/forms/d/1gUmS0-KTgHLahGpNZnL4pmmTdxcL2VEEoHPQJ1m9gdU', '_self')
     },
   },
