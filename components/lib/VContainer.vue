@@ -20,6 +20,7 @@ export default {
 
   @media (--viewport-small) {
     width: 90% !important;
+    margin: 0 auto;
   }
 }
 </style>
