@@ -34,7 +34,7 @@
             label="Join us"
             label-transform="uppercase"
             class="joinus-btn"
-            :action="openCareers"
+            :action="openJoinUs"
           />
         <!-- <div>
           <v-stack
@@ -81,16 +81,21 @@ export default {
   data() {
     return {
       highlights: [
-        // { title: 'Employees Worldwide', value: '20+' },
-        // { title: 'Renowned Investors', value: '30+' },
-        // { title: 'Funds Raised', value: '$2.7M+' },
+        // { title: 'Employees Worldwide', value: '5+' },
+        // { title: 'Renowned Investors', value: '5+' },
+        // { title: 'Funds Raised', value: '$0' },
       ],
     }
+  },
+  methods: {
+    openJoinUs() {
+      window.open('https://docs.google.com/forms/d/1gUmS0-KTgHLahGpNZnL4pmmTdxcL2VEEoHPQJ1m9gdU', '_self')
+    },
   },
 }
 </script>
 
-<style lang="postcss" scoped>
+<style>
 @import url('../lib/media-query-helper.css');
 
 section {
@@ -122,10 +127,10 @@ section {
 }
 
 .join-us-illustration {
-  max-width: 38rem;
+  max-width: 32rem;
   width: 100%;
   margin-top: 4rem;
-  margin-right: -12.5%;
+
 
   @media (--viewport-medium) {
     margin-right: 0;
