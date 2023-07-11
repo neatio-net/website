@@ -132,7 +132,8 @@ button:disabled {
 button[data-variant='primary'] {
   border-radius: 10px;
   color: var( --color-black);
-  background: linear-gradient(180deg, #46bbf4 -4.5%,  #5983FC 100.1%);
+  font-size: 1.2rem;
+  background: linear-gradient(180deg, #46bbf4 -4.5%,  #6f00ff 100.1%);
   
 
 }
@@ -144,6 +145,7 @@ button[data-variant='primary']:disabled {
 button[data-variant='outline'] {
   color: #5983FC;
   position: relative;
+  font-size: 1.2rem;
 }
 
 button[data-variant='outline']::before {
@@ -163,6 +165,7 @@ button[data-variant='outline']::before {
 
   @media (--viewport-medium) {
     border-radius: 5px;
+
   }
 }
 
