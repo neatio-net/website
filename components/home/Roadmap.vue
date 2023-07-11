@@ -4,7 +4,7 @@
       <v-stack>
         <app-section-descriptor
           title="Roadmap"
-          heading="Neatio 2023-2024 Roadmap"
+          heading="Neatio Roadmap"
           description="At Neatio, our relentless pursuit is to establish the forefront of payment systems. Discover our remarkable achievements and ongoing endeavors below. Inspired? Join us in shaping the future! Together, we can make Neatio the epitome of advancement in the realm of payments."
           style="max-width: 58rem"
         />
