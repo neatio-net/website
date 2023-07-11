@@ -20,12 +20,12 @@
 
             <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
               <a href="" target="_blank">
-                <v-button label="Learn More" label-transform="uppercase" />
+                <v-button label="Buy" label-transform="uppercase" />
               </a>
               <a :href="NEATIO_URL" target="_blank">
                 <v-button
                   variant="outline"
-                  label="Get Involved"
+                  label="Stake"
                   label-transform="uppercase"
                   class="secondary-button"
                 />
@@ -89,7 +89,7 @@ export default {
 
 
   @media (--viewport-small) {
-    padding: 0;
+    padding: 10px 0;
     margin-top: 0 !important;
   }
 }
