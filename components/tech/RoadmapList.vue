@@ -8,7 +8,7 @@
     </div> -->
     <v-container>
       <v-stack direction="column">
-        <app-section-descriptor title="Roadmap" heading="Detailed 2023 - 2024 Roadmap" />
+        <app-section-descriptor title="Roadmap" heading="Neatio History & Roadmap" />
         <v-stack gap="1rem" class="laptop-remove">
           <v-dropdown
             v-model="selectedYear"
@@ -74,37 +74,67 @@ export default {
     return {
       selectedYear,
       roadmap: {
-        2022: [
+        2021: [
         {
             quarter: 'Quarter 1',
             milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
+              'Neatio project development starts',
               ],
           },
           {
             quarter: 'Quarter 2',
             milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
-              ],
+              'Neatio network testing - Closed Testnet',
+            ],
           },
           {
             quarter: 'Quarter 3',
             milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
+              'Network stretching and bug fixes',
               ],
           },
           {
             quarter: 'Quarter 4',
             milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
+            'Neatio network testing - Public Testnet',
+            ],
+          },
+        ],
+        2022: [
+        {
+            quarter: 'Quarter 1',
+            milestones: [
+              'Neatio Mainnet launch',
+              'Whitepaper 1.0 release',
+              'The roadmap for 2022 revealed',
+              'Neatio community build - Airdrop',
+              ],
+          },
+          {
+            quarter: 'Quarter 2',
+            milestones: [
+              'Neatio 2.0 web wallet development',
+              'The new Neatio website development',
+              'Whitepaper for Neatio 2.0 release',
+              'NeatDocs documentation release',
+              ],
+          },
+          {
+            quarter: 'Quarter 3',
+            milestones: [
+              'New website 2.0 look redesign',
+              'AMA sesion with HedgePay project',
+              'Staking website gets a new look',
+              'Neatio 2.0 explorer redesign',
+              ],
+          },
+          {
+            quarter: 'Quarter 4',
+            milestones: [
+              'Finexbox CEX listing of $NEAT',
+              'Discord and telegram bots release',
+              'AMA sesion with AnyDAO project',
+              'December Quest Competition',
               ],
           },
         ],
@@ -112,70 +142,75 @@ export default {
         {
             quarter: 'Quarter 1',
             milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
+              '2023 Roadmap presentation',
+              'Neatio Blog development & launch ',
+              'Bitcointalk bounty campaign start',
+              'Governance development & implementation',
               ],
           },
           {
             quarter: 'Quarter 2',
             milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
+              '$NEAT token contracts development',
+              'Crosschain bridge contracts development',              
+              '$NEAT listing on DEX exchange',
+              'Logo redesign for new $NIO network',
+              'Whitepaper for Neatio 3.0 development',
               ],
           },
           {
             quarter: 'Quarter 3',
             milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
+              'Neatio network 3.0 development start',
+              'The new website redesign and build',            
+              'Contracts deployment on Polygon',
+              'Uniswap v3 DEX $NIO token listing'
               ],
           },
           {
             quarter: 'Quarter 4',
             milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
+              'Neatio network 3.0 Testnet launch',
+              'Neatio network 3.0 Mainnet launch',
+              'New explorer for Neatio 3.0 development',
+              'All-in-one wallet platform development ',
               ],
           },
         ],
-        2024: [
-        {
-            quarter: 'Quarter 1',
-            milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
-              ],
-          },
-          {
-            quarter: 'Quarter 2',
-            milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
-              ],
-          },
-          {
-            quarter: 'Quarter 3',
-            milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
-              ],
-          },
-          {
-            quarter: 'Quarter 4',
-            milestones: [
-              'Neatio Milestone 1',
-              'Neatio Milestone 2',
-              'Neatio Milestone 3',
-              ],
-          },
-        ],
+        // 2024: [
+        // {
+        //     quarter: 'Quarter 1',
+        //     milestones: [
+        //       'Neatio Milestone 1',
+        //       'Neatio Milestone 2',
+        //       'Neatio Milestone 3',
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 2',
+        //     milestones: [
+        //       'Neatio Milestone 1',
+        //       'Neatio Milestone 2',
+        //       'Neatio Milestone 3',
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 3',
+        //     milestones: [
+        //       'Neatio Milestone 1',
+        //       'Neatio Milestone 2',
+        //       'Neatio Milestone 3',
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 4',
+        //     milestones: [
+        //       'Neatio Milestone 1',
+        //       'Neatio Milestone 2',
+        //       'Neatio Milestone 3',
+        //       ],
+        //   },
+        // ],
       },
     }
   },
