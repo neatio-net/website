@@ -34,9 +34,9 @@ style="text-align: left;" />
 style="text-align: left;" />
 <div class="spc"></div>
 
-      <v-stack justify="space-between" wrap>
+      <!-- <v-stack justify="space-between" wrap>
         <div
-          v-for="culturePoint in culturePoints"
+          
           :key="culturePoint.title"
           class="our-culture-points"
         >
@@ -48,7 +48,7 @@ style="text-align: left;" />
             :description="culturePoint.description"
           />
         </div>
-      </v-stack>
+      </v-stack> -->
     </v-container>
   </section>
 </template>
