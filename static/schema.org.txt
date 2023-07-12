@@ -1,0 +1,11 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "Neatio",
+  "alternateName": "NIO",
+  "url": "https://neatio.net/logo.png",
+  "logo": "https://neatio.net/",
+  "sameAs": "https://twitter.com/neat_io"
+}
+</script>
