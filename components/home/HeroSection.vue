@@ -19,13 +19,13 @@
             />
 
             <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
-              <a href="" target="_blank">
-                <v-button label="Buy" label-transform="uppercase" />
+              <a href="/about/" target="_blank">
+                <v-button label="Discover" label-transform="uppercase" />
               </a>
-              <a :href="NEATIO_URL" target="_blank">
+              <a href="https://t.me/neat_io" target="_blank">
                 <v-button
                   variant="outline"
-                  label="Stake"
+                  label="Community"
                   label-transform="uppercase"
                   class="secondary-button"
                 />
