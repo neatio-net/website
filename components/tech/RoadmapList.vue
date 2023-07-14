@@ -78,25 +78,25 @@ export default {
         {
             quarter: 'Quarter 1',
             milestones: [
-              'Neatio project development starts',
+              'Neatio project development starts ✔️',
               ],
           },
           {
             quarter: 'Quarter 2',
             milestones: [
-              'Neatio network testing - Closed Testnet',
+              'Neatio network testing - Closed Testnet ✔️',
             ],
           },
           {
             quarter: 'Quarter 3',
             milestones: [
-              'Network stretching and bug fixes',
+              'Network stretching and bug fixes ✔️',
               ],
           },
           {
             quarter: 'Quarter 4',
             milestones: [
-            'Neatio network testing - Public Testnet',
+            'Neatio network testing - Public Testnet ✔️',
             ],
           },
         ],
@@ -104,37 +104,37 @@ export default {
         {
             quarter: 'Quarter 1',
             milestones: [
-              'Neatio Mainnet launch',
-              'Whitepaper 1.0 release',
-              'The roadmap for 2022 revealed',
-              'Neatio community build - Airdrop',
+              'Neatio Mainnet launch ✔️',
+              'Whitepaper 1.0 release ✔️',
+              'The roadmap for 2022 revealed ✔️',
+              'Neatio community build - Airdrop ✔️',
               ],
           },
           {
             quarter: 'Quarter 2',
             milestones: [
-              'Neatio 2.0 web wallet development',
-              'The new Neatio website development',
-              'Whitepaper for Neatio 2.0 release',
-              'NeatDocs documentation release',
+              'Neatio 2.0 web wallet development ✔️',
+              'The new Neatio website development ✔️',
+              'Whitepaper for Neatio 2.0 release ✔️',
+              'NeatDocs documentation release ✔️',
               ],
           },
           {
             quarter: 'Quarter 3',
             milestones: [
-              'New website 2.0 look redesign',
-              'AMA sesion with HedgePay project',
-              'Staking website gets a new look',
-              'Neatio 2.0 explorer redesign',
+              'New website 2.0 look redesign ✔️',
+              'AMA sesion with HedgePay project ✔️',
+              'Staking website gets a new look ✔️',
+              'Neatio 2.0 explorer redesign ✔️',
               ],
           },
           {
             quarter: 'Quarter 4',
             milestones: [
-              'Finexbox CEX listing of $NEAT',
-              'Discord and telegram bots release',
-              'AMA sesion with AnyDAO project',
-              'December Quest Competition',
+              'Finexbox CEX listing of $NEAT ✔️',
+              'Discord and telegram bots release ✔️',
+              'AMA sesion with AnyDAO project ✔️',
+              'December Quest Competition ✔️',
               ],
           },
         ],
@@ -142,38 +142,38 @@ export default {
         {
             quarter: 'Quarter 1',
             milestones: [
-              '2023 Roadmap presentation',
-              'Neatio Blog development & launch ',
-              'Bitcointalk bounty campaign start',
-              'Governance development & implementation',
+              '2023 Roadmap presentation ✔️',
+              'Neatio Blog development & launch ✔️',
+              'Bitcointalk bounty campaign start ✔️',
+              'Governance development & implementation ✔️',
               ],
           },
           {
             quarter: 'Quarter 2',
             milestones: [
-              '$NEAT token contracts development',
-              'Crosschain bridge contracts development',              
-              '$NEAT listing on DEX exchange',
-              'Logo redesign for new $NIO network',
-              'Whitepaper for Neatio 3.0 development',
+              '$NEAT token contracts development ✔️',
+              'Crosschain bridge contracts development ✔️',              
+              '$NEAT listing on DEX exchange ✔️',
+              'Logo redesign for new $NIO network ✔️',
+              'Whitepaper for Neatio 3.0 development ✔️',
               ],
           },
           {
             quarter: 'Quarter 3',
             milestones: [
-              'Neatio network 3.0 development start',
-              'The new website redesign and build',            
-              'Contracts deployment on Polygon',
-              'Uniswap v3 DEX $NIO token listing'
+              'Neatio network 3.0 development start ✔️',
+              'The new website redesign and build ✔️',            
+              'Contracts deployment on Polygon ⏳',
+              'Uniswap v3 DEX $NIO token listing ⏳'
               ],
           },
           {
             quarter: 'Quarter 4',
             milestones: [
-              'Neatio network 3.0 Testnet launch',
-              'Neatio network 3.0 Mainnet launch',
-              'New explorer for Neatio 3.0 development',
-              'All-in-one wallet platform development ',
+              'Neatio network 3.0 Testnet launch ⏳',
+              'Neatio network 3.0 Mainnet launch ⏳',
+              'New explorer for Neatio 3.0 development ⏳',
+              'All-in-one wallet platform development ⏳',
               ],
           },
         ],
