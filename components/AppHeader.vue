@@ -32,11 +32,11 @@ export default {
           name: 'Roadmap',
           link: '/tech/',
         },
-        {
-          name: 'Whitepaper',
-          link: 'https://neatio.net/whitepaper.pdf',
-          external: true,
-        },
+        // {
+        //   name: 'Whitepaper',
+        //   link: 'https://neatio.net/whitepaper.pdf',
+        //   external: true,
+        // },
       ],
     }
   },
