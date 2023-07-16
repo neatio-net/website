@@ -24,21 +24,19 @@ export default {
           link: '/about/',
         },
       {
-          name: 'Blog',
+          name: 'Blogger',
           link: 'https://blog.neatio.net',
           external: true,
         },
-
+        {
+          name: 'Roadmap',
+          link: '/tech/',
+        },
         {
           name: 'Whitepaper',
-          link: '/whitepaper/',
-          // external: true,
+          link: 'https://neatio.net/whitepaper.pdf',
+          external: true,
         },
-        // {
-        //   name: 'Roadmap',
-        //   link: '/tech/',
-        // },
-
       ],
     }
   },
