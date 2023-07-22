@@ -41,7 +41,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #141E30, #243B55);
+  background: linear-gradient(to right, #24243e, #302b63, #24243e);
   overflow-x: hidden;
   min-height: 100vh;
 }
