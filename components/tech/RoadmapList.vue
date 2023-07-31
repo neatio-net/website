@@ -163,13 +163,15 @@ export default {
             milestones: [
               'Neatio network 3.0 development start ✔️',
               'The new website redesign and build ✔️',            
-              'Contracts deployment on Polygon ⏳',
-              'Uniswap v3 DEX $NIO token listing ⏳'
+              'Contracts deployment on Polygon ✔️',
+              'Uniswap v3 DEX $NIO token listing ✔️',
+              'Undergoing native $NEAT coin swap ⏳'
               ],
           },
           {
             quarter: 'Quarter 4',
             milestones: [
+              'Complete native $NEAT coin swap ⏳',
               'Neatio network 3.0 Testnet launch ⏳',
               'Neatio network 3.0 Mainnet launch ⏳',
               'New explorer for Neatio 3.0 development ⏳',
