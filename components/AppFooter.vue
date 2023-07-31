@@ -44,7 +44,7 @@
 
             <a
               style="margin-left: 2rem"
-              href="https://dd.neatio.net"
+              href="https://discord.neatio.net"
               target="_blank"
             >
               <v-image
