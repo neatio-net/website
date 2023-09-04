@@ -55,7 +55,7 @@
             </a>
             <a
               style="margin-left: 2rem"
-              href="https://t.me.neat_io"
+              href="https://t.me/neat_io"
               target="_blank"
             >
               <v-image
