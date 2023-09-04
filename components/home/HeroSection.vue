@@ -14,7 +14,7 @@
           <v-stack direction="column">
             <app-section-descriptor
               description="Neatio will lead you into the new digital era. 
-              Step forward with confidence as we revolutionize the way we transact, empowering individuals and businesses alike with the security and trust of the blockchain tech."
+              Step forward with confidence as we revolutionize the way we transact, empowering individuals and businesses alike with the security and trust of the blockchain technology."
               class="hero-description"
             />
 
