@@ -165,14 +165,14 @@ export default {
               'The new website redesign and build ✔️',            
               'Contracts deployment on Polygon ✔️',
               'Uniswap v3 DEX $NIO token listing ✔️',
-              'Undergoing native $NEAT coin swap ⏳'
+              'Undergoing native $NEAT coin swap ✔️'
               ],
           },
           {
             quarter: 'Quarter 4',
             milestones: [
-              'Complete native $NEAT coin swap ⏳',
-              'Neatio network 3.0 Testnet launch ⏳',
+              'Complete native $NEAT coin swap ✔️',
+              'Neatio network 3.0 Testnet launch ✔️',
               'Neatio network 3.0 Mainnet launch ⏳',
               'New explorer for Neatio 3.0 development ⏳',
               'All-in-one wallet platform development ⏳',
