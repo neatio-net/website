@@ -2,7 +2,7 @@ const site = {
   url: 'https://neatio.net',
   title: 'Beyond Payments',
   description:
-    'dESCRIPTION',
+    'Welcome To The Future Of Payments.',
   image: 'https://neatio.net/',
   keywords: ['payments', 'blockchain'].join(', '),
 }
