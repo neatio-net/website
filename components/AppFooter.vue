@@ -55,19 +55,6 @@
             </a>
             <a
               style="margin-left: 2rem"
-              href="https://t.me/neat_io"
-              target="_blank"
-            >
-              <v-image
-                style="height: 40px"
-                path="images/social/telegram.png"
-                class="footer-social-link"
-                alt="Neatio Telegram"
-              />
-            </a>
-
-            <a
-              style="margin-left: 2rem"
               href="https://github.com/nio-net"
               target="_blank"
             >
