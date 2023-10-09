@@ -117,7 +117,7 @@ a {
 
   @media (--viewport-medium) {
     font-size: 0.875rem;
-    width: 10rem;
+    width: 8.4rem;
     height: 2.5rem;
     border-radius: 5px;
   }
