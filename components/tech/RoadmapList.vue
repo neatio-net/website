@@ -173,7 +173,7 @@ export default {
             milestones: [
               'Complete native $NEAT coin swap ✔️',
               'Neatio network 3.0 Testnet launch ✔️',
-              'Neatio network 3.0 Mainnet launch ⏳',
+              'Neatio network 3.0 Mainnet launch ✔️',
               'New explorer for Neatio 3.0 development ⏳',
               'All-in-one wallet platform development ⏳',
               ],
