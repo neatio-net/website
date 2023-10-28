@@ -71,7 +71,7 @@
         </v-stack>
 
         <!-- Footer Links -->
-        <v-stack
+        <!-- <v-stack
           class="footer-links-container"
           justify="space-between"
           :grow="1"
@@ -91,7 +91,7 @@
             >
 
           </v-stack>
-        </v-stack>
+        </v-stack> -->
       </v-stack>
     </v-container>
   </footer>
