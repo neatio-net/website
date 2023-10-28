@@ -19,10 +19,10 @@ export default {
       },
       menuItems: [
         
-      {
-          name: 'About',
-          link: '/about/',
-        },
+      // {
+      //     name: 'About',
+      //     link: '/about/',
+      //   },
       {
           name: 'Blogger',
           link: 'https://blog.neatio.net',
