@@ -19,17 +19,17 @@
             />
 
             <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
-              <a href="https://app.uniswap.org/#/swap?theme=dark&inputCurrency=0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063&outputCurrency=0xaDD6f741Bc780b1b3633E05FceFed02047Cc84fA" target="_blank">
-                <v-button label="Trade $NIO" label-transform="uppercase" />
-              </a>
-              <a href="https://app.uniswap.org/#/add/0xaDD6f741Bc780b1b3633E05FceFed02047Cc84fA/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063" target="_blank">
+              <router-link to="/about/">
+                <v-button label="DISCOVER" label-transform="uppercase" />
+              </router-link>
+              <router-link to="/careers/">
                 <v-button
                   variant="outline"
-                  label="Earn $NIO"
+                  label="JOIN US"
                   label-transform="uppercase"
                   class="secondary-button"
                 />
-              </a>
+              </router-link>
 
             </v-stack>
 
