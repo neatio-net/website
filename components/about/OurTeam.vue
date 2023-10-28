@@ -17,7 +17,7 @@
       <app-section-descriptor
             description="Neatio team consists of a group of software engineers and designers which are passionate about blockchain technology and cryptocurrencies in general, with a strong belief in the freedom and privacy of each individual.
 
-Our team is a perfect blend of core developers and UX/UI designers. To find out more about Neatio Team and our mission please check our Whitepaper."
+Our team is a perfect blend of core developers and UX/UI designers. Find out more about Neatio project by reading the Whitepaper."
 style="text-align: left;" />
         
       </v-stack>
