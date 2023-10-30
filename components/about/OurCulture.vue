@@ -41,12 +41,7 @@ export default {
   data() {
     return {
       culturePoints: [
-      {
-          icon: 'images/privacy.svg',
-          title: 'Value Privacy',
-          description:
-            'Privacy is not a feature we build, it is a fundamental right.',
-        },
+
       ],
     }
   },
