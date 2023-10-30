@@ -24,14 +24,24 @@ export default {
       //     link: '/about/',
       //   },
       {
-          name: 'Blogger',
+          name: 'Blog',
           link: 'https://blog.neatio.net',
           external: true,
         },
         {
+          name: 'Explorer',
+          link: 'https://wallet.neatio.net',
+        },
+        
+        {
           name: 'Roadmap',
           link: '/tech/',
         },
+        {
+          name: 'Wallet',
+          link: 'https://wallet.neatio.net',
+        },
+        
         {
           name: 'Whitepaper',
           link: 'https://neatio.net/whitepaper.pdf',
