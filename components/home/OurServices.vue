@@ -33,7 +33,7 @@
                 class="feature-description-text"
               >       
               Neatio stands out as an ultra-fast blockchain network designed for everyday use. 
-              Its remarkable speed enables sub-second transaction confirmations, making it ideal for swift and efficient daily transactions. 
+              The remarkable speed enables instant transaction, making it ideal for swift and efficient daily transactions. 
               Whether you're making payments, conducting business, or engaging in other activities, Neatio's rapid confirmation times ensure a seamless user experience. 
               With its focus on speed and usability, Neatio empowers users with a blockchain network that can keep pace with the demands of modern-day transactions. 
 
