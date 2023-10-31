@@ -30,7 +30,8 @@ export default {
         },
         {
           name: 'Explorer',
-          link: 'https://wallet.neatio.net',
+          link: 'https://explorer.neatio.net',
+          external: true,
         },
         
         {
@@ -40,6 +41,7 @@ export default {
         {
           name: 'Wallet',
           link: 'https://wallet.neatio.net',
+          external: true,
         },
         
         {
