@@ -34,7 +34,7 @@
             </v-text>
           </a>
           <v-stack style="margin-top: 3rem" md-justify="space-evenly">
-            <a href="https://twitter.com/neat_io" target="_blank">
+            <a href="https://twitter.com/neatio_net" target="_blank">
               <v-image
                 path="images/social/twitter.png"
                 class="footer-social-link"
@@ -55,7 +55,7 @@
             </a>
             <a
               style="margin-left: 2rem"
-              href="https://github.com/nio-net"
+              href="https://github.com/neatio-net"
               target="_blank"
             >
               <v-image
