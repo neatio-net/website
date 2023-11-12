@@ -30,7 +30,7 @@ export default {
         },
         {
           name: 'Explorer',
-          link: 'https://explorer.neatio.net',
+          link: 'https://scan.neatio.net',
           external: true,
         },
         
@@ -38,11 +38,11 @@ export default {
           name: 'Roadmap',
           link: '/tech/',
         },
-        {
-          name: 'Wallet',
-          link: 'https://wallet.neatio.net',
-          external: true,
-        },
+        // {
+        //   name: 'Wallet',
+        //   link: 'https://wallet.neatio.net',
+        //   external: true,
+        // },
         
         {
           name: 'Whitepaper',
