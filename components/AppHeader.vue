@@ -19,9 +19,14 @@ export default {
       },
       menuItems: [
         
+      {
+          name: 'About',
+          link: '/about/',
+        },
       // {
-      //     name: 'About',
-      //     link: '/about/',
+      //     name: 'Asknio',
+      //     link: 'https://asknio.com',
+      //     external: true,
       //   },
       {
           name: 'Blog',
@@ -38,11 +43,11 @@ export default {
           name: 'Roadmap',
           link: '/tech/',
         },
-        // {
-        //   name: 'Wallet',
-        //   link: 'https://wallet.neatio.net',
-        //   external: true,
-        // },
+        {
+           name: 'Wallet',
+           link: 'https://wallet.neatio.net',
+           external: true,
+         },
         
         {
           name: 'Whitepaper',
