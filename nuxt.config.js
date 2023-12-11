@@ -1,6 +1,6 @@
 const site = {
   url: 'https://neatio.net',
-  title: 'Beyond Payments',
+  title: 'Beyond Blockchain',
   description:
     'Welcome To The Future Of Payments.',
   image: 'https://neatio.net/',
