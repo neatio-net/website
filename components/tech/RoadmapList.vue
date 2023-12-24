@@ -298,12 +298,12 @@ ul li {
 }
 
 .selected-year {
-  border: 1px solid #5983fc;
+  border: 1px solid #8D80FF;
   border-radius: 10px;
 }
 
 .selected-year > * {
-  color:#5983fc;
+  color:#8D80FF;
   font-weight: 600;
 }
 
