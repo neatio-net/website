@@ -195,7 +195,7 @@ a {
 .get-in-touch {
   font-size: 1.5rem;
   line-height: 2.25rem;
-  color: #5983FC;
+  color: #8D80FF;
 
   @media (--viewport-medium) {
     font-size: 1.125rem;
