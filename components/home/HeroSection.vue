@@ -36,6 +36,8 @@
           </v-stack>
 
         </v-stack>
+
+
         <v-image
               class="hero-image"
               path="images/blockchain2.png"
@@ -57,7 +59,9 @@
 <script>
 
 
-
+import { SwapWidget } from '@uniswap/widgets'
+import '@uniswap/widgets/fonts.css'
+import '@uniswap/widgets/dist/index.js'   
 
 
 
