@@ -22,7 +22,7 @@
           </div>
           <div class="overview-feature">
             <v-heading :level="2" class="overview-feature-title">
-              Balzing Fast
+              Fast Transactions
             </v-heading>
             <v-heading :level="2" class="overview-feature-title">
             </v-heading>
@@ -51,7 +51,7 @@
           <div class="overview-feature">
             <div>
               <v-heading :level="2" class="overview-feature-title">
-                Highly Scalable
+                Horizontal Scalability
              
               </v-heading>
 
@@ -66,7 +66,7 @@
               Neatio's custom BFT consensus mechanism achieve transaction finality within the same block. 
               By optimizing its blockchain protocol and transaction validation process,
               Neatio minimizes delays and eliminates the need for extended waiting periods.
-              Say goodbye to frustrating bottlenecks and experience the convenience of near-instantaneous transaction confirmations on the Neatio platform.
+              Say goodbye to frustrating bottlenecks and experience the convenience of fast transaction confirmations on the Neatio platform.
 
                     </v-text>
             </div>
@@ -119,7 +119,7 @@
           sm-gap="3rem"
           justify="space-evenly"
         >
-          <!-- <div class="overview-feature">
+          <div class="overview-feature">
             <div>
               <v-heading :level="2" class="overview-feature-title">
               Environmentally Friendly             
@@ -134,16 +134,16 @@
               >
               The Neatio blockchain utilizes Proof-of-Stake (PoS), an energy-efficient and eco-friendly approach. 
               Unlike energy-consuming Proof-of-Work (PoW), PoS relies on stakeholder participation, eliminating resource-intensive mining. 
-              Neatio's innovative PoS consensus ensures efficient block verification while prioritizing sustainability.
+              Neatio's innovative nPoS consensus ensures efficient block verification while prioritizing sustainability.
               </v-text>
             </div>
           </div>
           <div class="icon-container">
             <v-image class="serv-image"
-              path="images/eco4.png"
+              path="images/eco5.png"
               alt="Neatio Eco"
             />
-          </div> -->
+          </div>
         </v-stack>
         
       </div>
