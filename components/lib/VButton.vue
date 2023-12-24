@@ -131,9 +131,9 @@ button:disabled {
 /* Primary Button Styles */
 button[data-variant='primary'] {
   border-radius: 10px;
-  color: var( --color-black);
+  color: #000;
   font-size: 1.2rem;
-  background: linear-gradient(180deg, #46bbf4 -4.5%,  #6f00ff 100.1%);
+  background: linear-gradient(90deg,#3d00b9,#8d80ff);
   
 
 }
@@ -143,7 +143,7 @@ button[data-variant='primary']:disabled {
 
 /* Outline Button Styles */
 button[data-variant='outline'] {
-  color: #5983FC;
+  color: #8D80FF;
   position: relative;
   font-size: 1.2rem;
 }
@@ -157,7 +157,7 @@ button[data-variant='outline']::before {
   bottom: 0;
   border-radius: 10px;
   border: 3px solid transparent;
-  background: linear-gradient(180deg, #46bbf4 0%, #5983FC 100%) border-box;
+  background: linear-gradient(to right, #a79eff 0%, #7764cc 100%) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
