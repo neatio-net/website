@@ -59,10 +59,6 @@
 <script>
 
 
-import { SwapWidget } from '@uniswap/widgets'
-import '@uniswap/widgets/fonts.css'
-import '@uniswap/widgets/dist/index.js'   
-
 
 
 const NEATIO_URL = process.env.NEATIO_BOOK_DEMO_URL
