@@ -9,7 +9,7 @@
       >
         <v-stack direction="column" class="hero-content-container">
           <v-heading :level="1" class="hero-title">
-            <div>Beyond Blockchain</div>            
+            <div>Payments Freedom Powered by Neatio.</div>            
           </v-heading>
           <v-stack direction="column">
             <app-section-descriptor
