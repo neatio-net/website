@@ -174,45 +174,45 @@ export default {
               'Complete native $NEAT coin swap ✔️',
               'Neatio network 3.0 Testnet launch ✔️',
               'Neatio network 3.0 Mainnet launch ✔️',
-              'New explorer for Neatio 3.0 development ⏳',
-              'All-in-one wallet platform development ⏳',
+              'New explorer for Neatio 3.0 development ✔️',
+              'All-in-one wallet platform development ✔️',
               ],
           },
         ],
-        // 2024: [
-        // {
-        //     quarter: 'Quarter 1',
-        //     milestones: [
-        //       'Neatio Milestone 1',
-        //       'Neatio Milestone 2',
-        //       'Neatio Milestone 3',
-        //       ],
-        //   },
-        //   {
-        //     quarter: 'Quarter 2',
-        //     milestones: [
-        //       'Neatio Milestone 1',
-        //       'Neatio Milestone 2',
-        //       'Neatio Milestone 3',
-        //       ],
-        //   },
-        //   {
-        //     quarter: 'Quarter 3',
-        //     milestones: [
-        //       'Neatio Milestone 1',
-        //       'Neatio Milestone 2',
-        //       'Neatio Milestone 3',
-        //       ],
-        //   },
-        //   {
-        //     quarter: 'Quarter 4',
-        //     milestones: [
-        //       'Neatio Milestone 1',
-        //       'Neatio Milestone 2',
-        //       'Neatio Milestone 3',
-        //       ],
-        //   },
-        // ],
+        2024: [
+        {
+            quarter: 'Quarter 1',
+            milestones: [
+              'NodeOwner development and launch 💫' ,
+              'Listing the new $NIO coin on CEX 💫' ,
+              'Listing Neatio on CoinMarketCap 💫',
+              ],
+          },
+          // {
+          //   quarter: 'Quarter 2',
+          //   milestones: [
+          //     'Neatio Milestone 1',
+          //     'Neatio Milestone 2',
+          //     'Neatio Milestone 3',
+          //     ],
+          // },
+          // {
+          //   quarter: 'Quarter 3',
+          //   milestones: [
+          //     'Neatio Milestone 1',
+          //     'Neatio Milestone 2',
+          //     'Neatio Milestone 3',
+          //     ],
+          // },
+          // {
+          //   quarter: 'Quarter 4',
+          //   milestones: [
+          //     'Neatio Milestone 1',
+          //     'Neatio Milestone 2',
+          //     'Neatio Milestone 3',
+          //     ],
+          // },
+        ],
       },
     }
   },
