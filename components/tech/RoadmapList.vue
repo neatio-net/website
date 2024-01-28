@@ -186,6 +186,7 @@ export default {
               'NodeOwner development and launch 💫' ,
               'Listing the new $NIO coin on CEX 💫' ,
               'Listing Neatio on CoinMarketCap 💫',
+              'Listing Neatio on CoinGecko 💫',
               ],
           },
           // {
