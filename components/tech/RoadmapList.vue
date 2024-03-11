@@ -183,20 +183,21 @@ export default {
         {
             quarter: 'Quarter 1',
             milestones: [
-              'NodeOwner development and launch 💫' ,
-              'Listing the new $NIO coin on CEX 💫' ,
-              'Listing Neatio on CoinMarketCap 💫',
-              'Listing Neatio on CoinGecko 💫',
+              'Asknio project development start 💫',
+              'Validator development and launch 💫' ,
+              'NioDEX development and launch 💫' ,
+              'Marketplace development and launch 💫' ,              
               ],
           },
-          // {
-          //   quarter: 'Quarter 2',
-          //   milestones: [
-          //     'Neatio Milestone 1',
-          //     'Neatio Milestone 2',
-          //     'Neatio Milestone 3',
-          //     ],
-          // },
+           {
+             quarter: 'Quarter 2',
+             milestones: [
+              'NodeOwner development and launch 💫' ,              
+              'Relisting the new $NIO coin on CEX 💫' ,
+              'Relisting Neatio on CoinMarketCap 💫',
+              'Listing Neatio on CoinGecko 💫',
+               ],
+           },
           // {
           //   quarter: 'Quarter 3',
           //   milestones: [
