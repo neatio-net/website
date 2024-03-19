@@ -17,7 +17,6 @@
               Step forward with confidence as we revolutionize the way we transact, empowering individuals and businesses alike with the security and trust of the blockchain technology."
               class="hero-description"
             />
-
             <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
               <router-link to="/about/">
                 <v-button label="DISCOVER" label-transform="uppercase" />
@@ -30,37 +29,18 @@
                   class="secondary-button"
                 />
               </router-link>
-
             </v-stack>
-
           </v-stack>
-
         </v-stack>
-
-
         <v-image
               class="hero-image"
               path="images/blockchain2.png"
-            />
-
-     
+            />     
       </v-stack>
-
-
-
     </v-container>
-
-  </section>
-
-
-  
+  </section>  
 </template>
-
 <script>
-
-
-
-
 const NEATIO_URL = process.env.NEATIO_BOOK_DEMO_URL
 const NEATIO_DASHBOARD_URL = process.env.NEATIO_DASHBOARD_URL
 
