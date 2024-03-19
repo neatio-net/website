@@ -183,8 +183,8 @@ export default {
         {
             quarter: 'Quarter 1',
             milestones: [
-              'Validator development and launch 💫' ,              
-              'Listing $NIO on AZbit exchange 💫' ,
+              'Ethereum <-> Neatio bridge development 💫' ,              
+              'NioDEX development and launch 💫' ,
               'Listing Neatio on CoinMarketCap 💫',
               'Listing Neatio on CoinGecko 💫',
                    
@@ -205,7 +205,7 @@ export default {
           //     'Neatio Milestone 1',
           //     'Neatio Milestone 2',
           //     'Neatio Milestone 3',
-          //     ],
+               ],
           // },
           // {
           //   quarter: 'Quarter 4',
