@@ -183,7 +183,7 @@ export default {
         {
             quarter: 'Quarter 1',
             milestones: [
-              'Ethereum <-> Neatio bridge development 💫' ,              
+              'ETH <-> NIO bridge development 💫' ,              
               'NioDEX development and launch 💫' ,
               'Listing Neatio on CoinMarketCap 💫',
               'Listing Neatio on CoinGecko 💫',
@@ -195,8 +195,8 @@ export default {
              milestones: [
               'Asknio project development start 💫',
               'Validator development and launch 💫' ,
-              'NioDEX development and launch 💫' ,
-              'Marketplace development and launch 💫' ,  
+              'NFT integration (core update) 💫' ,
+              'NFTs marketplace launch 💫' ,  
                ],
            },
           // {
@@ -205,7 +205,7 @@ export default {
           //     'Neatio Milestone 1',
           //     'Neatio Milestone 2',
           //     'Neatio Milestone 3',
-               ],
+              
           // },
           // {
           //   quarter: 'Quarter 4',
