@@ -33,6 +33,11 @@ export default {
           link: 'https://blog.neatio.net',
           external: true,
         },
+            {
+          name: 'NioDEX',
+          link: 'https://dex.neatio.net',
+          external: true,
+        },
         {
           name: 'Explorer',
           link: 'https://scan.neatio.net',
